@@ -3,19 +3,49 @@
 }
 */
 .nav {
-	margin-top: 8px;
-	margin-bottom: 0;
 	display: inline-block;
+	font-size: 14px;
 }
 
-.nav a{
+.logo{
+	position: absolute;
 	color: grey;
-	margin-right: 90px;
+	top: 4px;
+	left: 22px;
+
 }
 
-.nav span{
-	margin-right: 90px;
+.pricing{
+	position: absolute;
+	top: 4px;
+	left: 223px;
+}
+
+.pricing a{
+	color: black;
+	text-decoration: none;
+}
+
+.home{
+	position: absolute;
+	top: 4px;
+	left: 136px;
+}
+
+.home a{
+	text-decoration: none;
 	color: grey;
+}
+
+.contact{
+	position: absolute;
+	top: 4px;
+	left: 321px;
+}
+
+.contact a{
+	text-decoration: none;
+	color: gray;
 }
 
 .header {
@@ -23,20 +53,21 @@
     background-size: cover;
     position: relative;
     height: 500px;
-    margin-top: 0px;
+    margin: 7px;
+    
 }
 
 .text{
-	font-size: 50px;
-	position: relative;
-	top: 50%;
+	font-size: 45px;
+	position: absolute;
 	transform: translateY(-50%);
 	color: white;
-	height: 490;
 	text-align: center;
+	top: 175px;
+	left: 485px;
 
 
-p {
+table{
 
 }
 
