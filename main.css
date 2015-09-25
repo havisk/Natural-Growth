@@ -1,8 +1,42 @@
+/*body{
+	list-style: none;
+}
+*/
+.nav {
+	margin-top: 8px;
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+.nav a{
+	color: grey;
+	margin-right: 90px;
+}
+
+.nav span{
+	margin-right: 90px;
+	color: grey;
+}
+
 .header {
-    background: url("images/background.jpg");
+    background: url("images/background.jpg") no-repeat;
     background-size: cover;
-    margin-top: 30px;
+    position: relative;
     height: 500px;
+    margin-top: 0px;
+}
+
+.text{
+	font-size: 50px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+	height: 490;
+	text-align: center;
+
+
+p {
 
 }
 
