@@ -4,6 +4,17 @@
 	font-size: 14px;
 }
 
+.home a:hover{
+	color: black;
+}
+
+.pricing a:hover{
+	color: black;
+}
+.contact a:hover{
+	color: black;
+}
+
 .logo{
 	position: absolute;
 	color: gray;
@@ -18,7 +29,7 @@
 }
 
 .pricing a{
-	color: black;
+	color: gray;
 	text-decoration: none;
 }
 
