@@ -1,7 +1,4 @@
-/*body{
-	list-style: none;
-}
-*/
+
 .nav {
 	display: inline-block;
 	font-size: 14px;
@@ -9,10 +6,9 @@
 
 .logo{
 	position: absolute;
-	color: grey;
+	color: gray;
 	top: 4px;
 	left: 22px;
-
 }
 
 .pricing{
@@ -34,7 +30,7 @@
 
 .home a{
 	text-decoration: none;
-	color: grey;
+	color: gray;
 }
 
 .contact{
@@ -52,22 +48,168 @@
     background: url("images/background.jpg") no-repeat;
     background-size: cover;
     position: relative;
-    height: 500px;
-    margin: 7px;
-    
+    height: 450px;
+    margin: 7px;    
 }
 
 .text{
-	font-size: 45px;
+	font-size: 55px;
 	position: absolute;
 	transform: translateY(-50%);
 	color: white;
 	text-align: center;
-	top: 175px;
+	top: 240px;
 	left: 485px;
+}
+
+.tables{
+	position: relative;
+}
+
+.first {
+	position: absolute;
+	border: 1px solid black;
+	margin-left: 287px;
+	margin-top: 5px;
+
+}
+
+.tab thead, th, td{
+	border: 1px solid #EAEAEA;
+	padding:11px;
+	text-align: center;
+}
+
+td{
+	background-color: #F7F7F7;
+}
+
+th button{
+	background-color: #FFFFFF;
+	border-radius: 28px;
+}
+
+.far{
+	background-color: #FFFFFF;
+}
+.green {
+	font-size: 15px;
+	color: #E6EFE6;
+	background: #519250;
+	width: 250px;
+	height: 140px;
+	text-align: center;
+}
+
+.bug{
+	font-size: 70px;
+	color: white;
+}
+
+.per{
+	font-size: 15px;
+	color: #AAC9AA
+}
+
+.sec {
+	position: absolute;
+	border: 1px solid black;
+	margin-left: 595px;
+	margin-top: 5px;
+}
+	.blue{
+	font-size: 15px;
+	color: #E6EFE6;
+	background: #2B4885;
+	width: 250px;
+	height: 140px;
+	text-align: center;
+}
+
+.bper{
+	color: #8898BA;
+	font-size: 15px;
+}
+
+.car{
+	position: absolute;
+	border: 1px solid black;
+	margin-left: 904px;
+	margin-top: 5px;
+}
+
+.black{
+	font-size: 15px;
+	color: #E6EFE6;
+	background: #101010;
+	width: 250px;
+	height: 140px;
+	text-align: center;
+}
+
+.par{
+	position: relative;
+	width: 693px;
+}
+.win{
+	position: relative;
+	width: 1200px;
+}
+.rag{
+	position: relative;
+	width: 670px;
+}
+
+.mort{
+	position: relative;
+	width: 1200px;
+}
+.pars{
+	position: absolute;
+	margin-top: 492px;
+	margin-left: 299px;
+}
+
+.part{
+	position: absolute;
+	margin-left: 741px;
+	margin-top: 471px;
+}
+
+.rags{
+	position: absolute;
+	margin-top: 708px;
+	margin-left: 300px;
+}
+
+.abs{
+	position: absolute;
+	margin-top: 708px;
+	margin-left: 736px;
+}
+
+.bold{
+	font-weight: bold;
+}
 
 
-table{
+.foot{
+	position: relative;
+	width: 1424px;
+	height: 58px;
+	background-color: black;
+	margin: 0 5px;
+}
 
+.ftop{
+	position: absolute;
+	margin-top: 18px;
+	margin-left: 530px;
+}
+
+footer {
+	color: darkgray;
+	margin-top: 868px;
+	vertical-align: middle;
 }
 
